@@ -1,40 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.carousel {
+    display: flex;
+}
 
-.header, .secondheader, .container {
+.header {
     display: flex;
     justify-content: center;
-    font-family: "Poppins";
 }
 
-/* .size {
-    
-   
-} */
-
-.ingredients {
-    position: absolute;
+h2 {
     display: flex;
-    gap: 15px;
-    list-style-type: none;
+    justify-content: center;
 }
-
-.drag {
-    background-color: goldenrod;
-    border: 1px solid rgb(119, 90, 17);
-    border-radius: 10px;
-    margin: 5px;
-    padding: 10px;
-    cursor: grab;
-    font-family: "Poppins";
-}
-
-.generate {
-     
-    position: relative;
-    top: 650px;
-    left: 900px  
-}
-
 
 
 
