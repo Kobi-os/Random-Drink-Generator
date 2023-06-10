@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .header, .secondheader, .container {
     display: flex;
     justify-content: center;
+    font-family: "Poppins";
 }
 
-.size {
+/* .size {
     
    
-}
+} */
 
 .ingredients {
     position: absolute;
@@ -22,6 +25,7 @@
     margin: 5px;
     padding: 10px;
     cursor: grab;
+    font-family: "Poppins";
 }
 
 .generate {
